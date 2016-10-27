@@ -1,0 +1,6 @@
+---
+applications:
+- name: mote-pair
+  buildpack: nodejs_buildpack
+  stack: cflinuxfs2
+  command: node target/server.js
